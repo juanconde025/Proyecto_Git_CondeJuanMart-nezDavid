@@ -1,5 +1,4 @@
-# Kaiosamapp 🌏🌐
-
+# 
 ## Tabla de contenido
 | Indice | Título  |
 |--|--|
