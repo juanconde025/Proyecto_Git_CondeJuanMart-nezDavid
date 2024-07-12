@@ -1,0 +1,28 @@
+{
+    "ciudades": [
+        {
+            "nombre": "Bucaramanga",
+            "codigo postal": "9182739",
+            "poblacion": "2342848",
+            "pais": "Colombia"
+        },
+        {
+            "nombre": "bga",
+            "codigo postal": "123",
+            "poblacion": "123",
+            "pais": "colombia"
+        },
+        {
+            "nombre": "cartagena de indias",
+            "codigo postal": "123",
+            "poblacion": "123",
+            "pais": "colombia"
+        },
+        {
+            "nombre": "barranquilla",
+            "codigo postal": "2345",
+            "poblacion": "2345",
+            "pais": "Colombia"
+        }
+    ]
+}

@@ -1,4 +1,5 @@
 def menu_principal():
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     print("Bienvenido al navegador de ciudades")
     print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     print("Ingrese la opcion que corresponda")
