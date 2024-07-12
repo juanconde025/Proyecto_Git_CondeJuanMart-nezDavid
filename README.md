@@ -4,32 +4,29 @@
 | Indice | Título  |
 |--|--|
 | 1. | [Descripción](#Descripcion) |
-| 2. | [Tecnologías Utilizadas](#TecnologíasUtilizadas) |
-| 3. | [Uso del Repositorio](#UsodelRepositorio) |
+| 2. | [Caracteristicas Principales](#Caracteristicas-principales) |
+| 3. | [Tecnologias Utilizadas](#Tecnologias-Utilizadas) |
 | 4. | [Instrucciones de Ejecución](#InstruccionesdeEjecucion) |
-| 5. | [Imagenes de la pagina](#Imagenesdelapagina) |
-| 6. | [Contacto](#Contacto) |
+| 5. | [Mapa](#Mapa) |
+| 6. | [Autores](#Autores) |
 
-#### Descripción 🚀
+#### Descripcion 🚀
 
-El proyecto kaiosamapp es una plataforma de gestión integral para una empresa de servicios de telefonia, diseñada para administrar diferentes aspectos relacionados con servicios, productos y gestion de descuentos. Esta aplicación permite a los administradores gestionar los datos pertinentes.
+El proyecto CityNav consiste en un buscador de ciudades por su nombre, codigo postal, numero de poblacion y pais al que pertenece
 
-#### Características Principales 🧮
+#### Caracteristicas principales 🧮
 
-1. **Gestión de Usuarios** 👥: Permite registrar y gestionar cuentas de los clientes y sus planes.
+1. **Crear ciudad** 👥: Permite registrar y añadir informacion de la ciudad que se quiere crear
 
-2. **Gestión de Servicios** 🌐: Permite la creación, lectura, edición y eliminación de servicios.
+2. **Actualizar ciudad** 🌐: Permite actualizar informacion de la ciudad 
 
-3. **Gestión de Productos** 🌐: Permite la creación, lectura, edición y eliminación de productos.
+3. **Buscar ciudad** 🌐: Permite buscar ciudades
 
 
-#### Tecnologías Utilizadas 🖥️
+#### Tecnologias Utilizadas 🖥️
 
 - **Python** 🐍: Todas la aplicacion esta hecha con python.
 
-#### Uso del Repositorio 📝
-
-Este repositorio contiene el código fuente del proyecto Kaiosamapp, organizado por roles y funcionalidades dentro de kaiosamapp. Cada directorio y archivo está estructurado para facilitar el desarrollo, mantenimiento y despliegue de la aplicación.
 
 #### Instrucciones de Ejecución 📐
 
@@ -37,8 +34,18 @@ Este repositorio contiene el código fuente del proyecto Kaiosamapp, organizado 
 2. Configura adecuadamente todo lo adecuado drespecto a python.
 3. Ejecuta el proyecto desde la terminal.
 
+#### Mapa 
 
+```mermaid
+graph LR
+A[CityNav] --> B(Crear ciudad)
+A --> C(Actualizar Info)
+A --> D(Leer Usuario)
+B ----> E((Datos guardados))
+E --.json--> I((Lectura de datos en el json)) 
+```
 
-#### Autor 👤
+#### Autores 👤
 
+Juan David Conde Martínez
 Leonardo Gonzalez
