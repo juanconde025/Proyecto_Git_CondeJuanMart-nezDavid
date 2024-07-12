@@ -5,8 +5,8 @@
 |--|--|
 | 1. | [Descripción](#Descripcion) |
 | 2. | [Caracteristicas Principales](#Caracteristicas-principales) |
-| 3. | [Tecnologias Utilizadas](#Tecnologias-Utilizadas) |
-| 4. | [Instrucciones de Ejecución](#InstruccionesdeEjecucion) |
+| 3. | [Tecnologias Utilizadas](#Tecnologias-utilizadas) |
+| 4. | [Instrucciones de Ejecución](#Instrucciones-de-ejecucion) |
 | 5. | [Mapa](#Mapa) |
 | 6. | [Autores](#Autores) |
 
@@ -23,12 +23,12 @@ El proyecto CityNav consiste en un buscador de ciudades por su nombre, codigo po
 3. **Buscar ciudad** 🌐: Permite buscar ciudades
 
 
-#### Tecnologias Utilizadas 🖥️
+#### Tecnologias utilizadas 🖥️
 
 - **Python** 🐍: Todas la aplicacion esta hecha con python.
 
 
-#### Instrucciones de Ejecución 📐
+#### Instrucciones de ejecucion 📐
 
 1. Clona el repositorio a tu máquina local. 
 2. Configura adecuadamente todo lo adecuado drespecto a python.
