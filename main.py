@@ -9,4 +9,4 @@ while True:
     elif opcion == 2:
         print("update")
     elif opcion == 3:
-        leer
+        print("hola")

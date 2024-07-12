@@ -3,6 +3,8 @@ import platform
 from datetime import datetime
 import shutil
 
+print()
+
 def clear_screen():
     if platform.system() == 'Windows': os.system('cls')
     else: os.system('clear')
