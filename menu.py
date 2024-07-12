@@ -6,3 +6,5 @@ def menu_principal():
     print("1. Agregar ciudad")
     print("2. Actualizar informacion ciudad")
     print("3. Buscar ciudad")
+    print("4. Leer ciuddades")
+    print("5. Salir")
