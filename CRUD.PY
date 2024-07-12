@@ -1,123 +1,38 @@
-def crear_ciudades(datos: dict):
-    canciones={}
-    clear_screen()
-    diseño_logo_artista()
-    canciones["nombre"]=input("Ingrese el nombre de la cancion: ").lower()
-    canciones["artista"]=input("Ingrese el nombre del artista: ").lower()
-    while True:
-        op = input("Ingrese el genero de la cancion: \n    1. Rock\n    2. Pop\n    3. Urbana\n    4. Electronica\n    5. Rap\n>>    ")
-        if op == "1": 
-            canciones["genero"] = "Rock"
-            canciones["genero_id"] = "01"             
-            break
-        elif op == "2":
-            canciones["genero"] = "Pop"
-            canciones["genero_id"] = "02"  
-            break
-        elif op == "3":
-            canciones["genero"] = "Urbana"
-            canciones["genero_id"] = "03"  
-            break
-        elif op == "4":
-            canciones["genero"] = "Electronica"
-            canciones["genero_id"] = "04"                   
-            break
-        elif op == "5":
-            canciones["genero"] = "Rap"
-            canciones["genero_id"] = "05"                   
-            break
-        else:
-            print_("El genero no es valido")
-    canciones["duracion"]=input("Ingrese la duracion: ")
-    canciones["lanzamiento"]=input("Ingrese el lanzamiento de la cancion: ")
-    canciones["album"]=input("Ingrese el nombre del album: ").lower()
-    canciones["artista_id"]= contador_id()
-    
-    datos["canciones"].append(canciones)
-    print(canciones["nombre"]," registrado con éxito!")
-    return datos
 
-def crear_cancion():
-    while True:
-        datos = cargar_datos(RUTA_BASE_DE_DATOS_ARTISTAS)
-        datos = crear_song(datos)
-        guardar_datos(datos, RUTA_BASE_DE_DATOS_ARTISTAS)
-        continuar = very()
-        if continuar == "2": break
-        else: clear_screen()
-        
-# crear_cancion()
 
-#ELIMINAR
-def eliminar_song(datos: dict):
-    clear_screen()
-    diseño_logo_artista()
-    nombre =input("Ingrese el nombre de la cancion: ").lower()
-    for i in range(len(datos["canciones"])):
-        if datos["canciones"][i]["nombre"] == nombre:
-            song = ("La cancion ",datos["canciones"][i]["nombre"]," de ",datos["canciones"][i]["artista"])
-            datos["canciones"].pop(i)
-            separador = " "
-            song = separador.join(map(str, song))
-            print(song," ha sido eliminada con exito...")
-            return datos
-    print (f"La cancion ",nombre," no existe...")    
-    return datos
 
-def eliminar_cancion():
-    while True:
-        datos = cargar_datos(RUTA_BASE_DE_DATOS_ARTISTAS)
-        datos = eliminar_song(datos)
-        guardar_datos(datos, RUTA_BASE_DE_DATOS_ARTISTAS)
-        continuar = very()
-        if continuar == "2": break
-        else: clear_screen()
-        
-# eliminar_cancion()
+
 
 
 #LEER
-def leer_song(datos: dict):
+def leer_ciudad(datos: dict):
     clear_screen()
     diseño_logo_artista()
-    nombre =input("Ingrese el nombre de la cancion: ").lower()    
-    for i in range(len(datos["canciones"])):
+    nombre =input("Ingrese el codigo postal de la ciudad: ").lower()    
+    for i in range(len(datos["ciudades"])):
         if datos["canciones"][i]["nombre"] == nombre:
             linea()
             es()
             line()
             print_("N o m b r e")
-            print_(datos["canciones"][i]["nombre"].capitalize())
+            print_(datos["ciudades"][i]["nombre"].capitalize())
             line()
             es()
             line()
-            print_("A r t i s t a")
-            print_(datos["canciones"][i]["artista"].capitalize())
+            print_("C o d i g o  p o s t a l")
+            print_(datos["canciones"][i]["codigo postal"].capitalize())
             line()
             es()
             line()
-            print_("G e n e r o")
-            print_(datos["canciones"][i]["genero"])
+            print_("P o b l a c i o n")
+            print_(datos["canciones"][i]["poblacion"])
             line()
             es()
             line()
-            print_("D u r a c i o n")
-            print_(datos["canciones"][i]["duracion"])
-            line()
-            es()
-            line()
-            print_("L a n z a m i e n t o")
-            print_(datos["canciones"][i]["lanzamiento"])
-            line()
-            es()
-            line()
-            print_("A l b u m")
-            print_(datos["canciones"][i]["album"].capitalize())
-            line()
-            es()
-            linea()
+            print_("P a i s")
+            print_(datos["canciones"][i]["pais"])
             return datos
-    print_(f"La cancion ",nombre," no existe...")    
+    print(f"La cancion ",nombre," no existe...")    
     return datos
 
 def leer_cancion():

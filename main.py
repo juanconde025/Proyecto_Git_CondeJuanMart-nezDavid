@@ -1,5 +1,5 @@
 from menu import *
-from datos import *
+from CRUD import *
 
 while True:
     menu_principal()
@@ -9,4 +9,4 @@ while True:
     elif opcion == 2:
         print("update")
     elif opcion == 3:
-        print()
+        leer
