@@ -4,8 +4,8 @@
 | Indice | Título  |
 |--|--|
 | 1. | [Descripción](#Descripcion) |
-| 2. | [Caracteristicas Principales](#Caracteristicas-principales) |
-| 3. | [Tecnologias Utilizadas](#Tecnologias-utilizadas) |
+| 2. | [Caracteristicas Principales](#Caracteristicas) |
+| 3. | [Tecnologias Utilizadas](#Tecnologias) |
 | 4. | [Instrucciones de Ejecución](#Instrucciones-de-ejecucion) |
 | 5. | [Mapa](#Mapa) |
 | 6. | [Autores](#Autores) |
@@ -14,7 +14,7 @@
 
 El proyecto CityNav consiste en un buscador de ciudades por su nombre, codigo postal, numero de poblacion y pais al que pertenece
 
-#### Caracteristicas principales 🧮
+#### Caracteristicas 🧮
 
 1. **Crear ciudad** 👥: Permite registrar y añadir informacion de la ciudad que se quiere crear
 
@@ -23,7 +23,7 @@ El proyecto CityNav consiste en un buscador de ciudades por su nombre, codigo po
 3. **Buscar ciudad** 🌐: Permite buscar ciudades
 
 
-#### Tecnologias utilizadas 🖥️
+#### Tecnologias  🖥️
 
 - **Python** 🐍: Todas la aplicacion esta hecha con python.
 
