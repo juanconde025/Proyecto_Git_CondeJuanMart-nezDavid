@@ -1,0 +1,10 @@
+{
+    "ciudades": [
+        {
+            "nombre": "Bucaramanga",
+            "codigo postal": "9182739",
+            "poblacion":"2342848",
+            "pais":"Colombia"
+        }
+    ]
+}
